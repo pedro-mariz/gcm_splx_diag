@@ -1,0 +1,4 @@
+name = "gcm_splx_diag"
+uuid = "07a9503f-708e-468c-b6e5-3980ba693dd8"
+version = "0.1.0"
+authors = ["Pedro Carvalho <pedro.carvalho@fiberwork.net>"]
