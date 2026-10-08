@@ -1,17 +1,12 @@
 module gcm_splx_diag
 
-"""
-    hello(who::String)
+# External packages
+using LinearAlgebra
 
-Return "Hello, `who`".
-"""
-hello(who::String) = "Hello, $who"
+# PAckage files
+include("Atoms.jl")
+include("Kernels.jl")
+include("Quadrature.jl")
+include("Optimization.jl")
 
-"""
-    domath(x::Number)
-
-Return `x + 5`.
-"""
-domath(x::Number) = x + 5
-
-end # module gcm_splx_diag
+end # module
